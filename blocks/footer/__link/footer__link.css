@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+.footer__links > li:last-child > .footer__link {
+    margin: 0;
+}
+
 .footer__link:hover {
     opacity: .8;
 }

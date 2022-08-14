@@ -1,5 +1,6 @@
 @import url(../vender/fonts/fonts.css);
 @import url(../vender/normalize.css);
+@import url(../blocks/main-page/main-page.css);
 @import url(../blocks/page/page.css);
 /* Подключаем стили блока HEADER */
 @import url(../blocks/header/header.css);
@@ -19,7 +20,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_span/intro__list_span.css);
+@import url(../blocks/intro/__list-accent/intro__list-accent.css);
 /* Подключаем стили блока PHOTO-GRID */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__items/photo-grid__items.css);
@@ -44,5 +45,4 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/_last/footer__link_last.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
