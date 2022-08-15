@@ -4,13 +4,8 @@
     font-weight: 400;
     text-decoration: none;
     color: #fff;
-    margin-right: 18px;
     transition: opacity 0.3s linear;
     box-sizing: border-box;
-}
-
-.footer__links > li:last-child > .footer__link {
-    margin: 0;
 }
 
 .footer__link:hover {

@@ -1,4 +1,5 @@
 /* Если приглядеться в маке, то Заголовок и ссылка находятся так же немного на разном уровне */
+/* Действитель align-self помог, смутило, что на самой первой карточке разницы нет при применении свойства, поэтому появились сомнения*/
 
 .place__title {
     font-size: 72px;
@@ -6,13 +7,13 @@
     font-weight: 900;
     color: #fff;
     margin: 0;
+    align-self: end;
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        max-width: 330px;
     }
 }
 
